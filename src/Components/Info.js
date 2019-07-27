@@ -6,8 +6,8 @@ import Instagram from '../Images/002-instagram.png'
 
 const Info = ()=>{
     return(
-        <div class="container">
-        <div class="post card">
+        <div className="container">
+        <div className="post card">
             <div className="row card-content">
                 <div className="col s4 avatar-info">
                     <p className="bold">PERSONAL INFORMATION</p>
