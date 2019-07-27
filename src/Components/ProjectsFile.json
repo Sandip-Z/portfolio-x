@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "projectName" : "live-stream-mockup",
+        "desc" : "upcoming live streaming application using RTC socket",
+        "storage" : "https://github.com/Sandip-Z/live-stream-mockup",
+        "deploy" : true,
+        "URL" : "https://mockup-live-stream.herokuapp.com/"
+    },
+    {
+        "id" : "2",
+        "projectName" : "react blog application",
+        "desc" : "React blog application using JSONPLACEHOLDER",
+        "storage" : "https://github.com/Sandip-Z/dummy-react-app",
+        "deploy" : true,
+        "URL" : "https://dummy-react-app.herokuapp.com/"
+    },
+    {
+        "id" : "3",
+        "projectName" : "shadow-following-mouse-movement",
+        "desc" : "Responsive UI element whose background changes according to mouse movement",
+        "storage" : "https://gitlab.com/sandipsatyal25/shadow-following-mouse-movement-ui-element",
+        "deploy" : false,
+        "URL" : null
+    },
+    {
+        "id" : "4",
+        "projectName" : "image-comparison",
+        "desc" : "Compares images on the top of each other",
+        "storage" : "https://gitlab.com/sandipsatyal25/image-comparison",
+        "deploy" : false,
+        "URL" : null
+    },
+    {
+        "id" : "5",
+        "projectName" : "Firebase-note-application",
+        "desc" : "Logs event into real-time firebase database",
+        "storage": "https://gitlab.com/sandipsatyal25/e-commerce",
+        "deploy" : false,
+        "URL" : null
+    },
+    {
+        "id" : "6",
+        "projectName" : "Calorie_meter_frontend",
+        "desc" : "Mobile Application which helps its user visualize the calory intake",
+        "storage" : "https://gitlab.com/ikushum/calorie_meter_frontend",
+        "deploy" : false,
+        "URL" : null
+    },
+    {
+        "id" : "7",
+        "projectName" : "webRTC",
+        "desc" : "upcoming streaming app",
+        "storage" : null,
+        "deploy" : false,
+        "URL" : null
+    }
+
+]
