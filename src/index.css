@@ -122,7 +122,9 @@ table{
 }
 
 @media screen and (max-width: 900px){
-  
+  .media-query-100-width-container{
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width:771px){

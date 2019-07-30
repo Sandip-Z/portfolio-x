@@ -6,7 +6,7 @@ import Instagram from '../Images/002-instagram.png'
 
 const Info = ()=>{
     return(
-        <div className="container">
+        <div className="container media-query-100-width-container">
         <div className="post card">
             <div className="row card-content media-query-row">
                 <div className="col s4 avatar-info">
@@ -29,10 +29,10 @@ const Info = ()=>{
                 <div className="col s4 avatar-social">
                     <p className="bold">SOCIAL MEDIA</p>
                     <ul className="social-list">
-                        <li><img src={Github} alt="github" className="social-logo" /></li>
-                        <li><img src={Gitlab} alt="gitlab" className="social-logo" /></li>
-                        <li><img src={Facebook} alt="facebook" className="social-logo" /></li>
-                        <li><img src={Instagram} alt="instagram" className="social-logo" /></li>
+                        <li><a href="https://www.github.com/Sandip-Z" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github" className="social-logo" /></a></li>
+                        <li><a href="https://www.gitlab.com/sandipsatyal25" target="_blank" rel="noopener noreferrer"><img src={Gitlab} alt="gitlab" className="social-logo" /></a></li>
+                        <li><a href="https://www.facebook.com/sandipsatyal25" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="facebook" className="social-logo" /></a></li>
+                        <li><a href="https://www.instagram.com/st.sandip" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="instagram" className="social-logo" /></a></li>
                     </ul>
                 </div>
             </div>
