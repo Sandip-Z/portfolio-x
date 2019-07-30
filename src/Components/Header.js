@@ -6,15 +6,15 @@ const Header = ()=>{
     return(
         <div className="header">
             <h1>PORTFOLIO</h1>
-            <div className="container">
-            <div className="row">
-                <div className="col s6" id="port-info">
+            <div className="container" id="avatar-wrapper">
+            <div className="row media-query-row">
+                <div className="col s6 media-query-col-6" id="port-info">
                     <img src={Photo} alt="avatar" className="materialboxed avatar center"/>
                 </div>
-                <div className="col s6">
+                <div className="col s6 media-query-col-6">
                     <div className="container avatar-content">
-                    <h5>Hello!</h5>
-                    <p>I am a web developer.</p>
+                    <h5 className="avatar-title">Hello!</h5>
+                    <p className="avatar-subtitle">I am a web developer.</p>
                     <p>I am sandip satyal, a web developer living at Hattiban, Lalitpur and this is my portfolio.I have a keen understanding of vanilla JavaScript and many of its popular and intuitive libraries like  React, JQuery. My knowledge on other  development  utility tool like git version control comes handy during development.  
                     </p>
                     <div className="button-wrapper">

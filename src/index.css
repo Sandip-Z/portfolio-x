@@ -71,6 +71,10 @@ code {
   text-align: justify;
 }
 
+.avatar-info{
+  padding:15px;
+}
+
 .info-wrapper{
   border: 1px solid red;
 }
@@ -81,11 +85,14 @@ code {
 .social-logo{
   width:100%;
   max-width: 25px;
+  margin-top:15px;
 }
 .social-list{
-  display: flex;
+  /* display: flex; */
+  display: inline;
 }
 .social-list li{
+  display: inline;
   padding:15px;
 }
 .button-wrapper{
@@ -98,4 +105,46 @@ th{
 
 table{
   margin-bottom:50px;
+}
+
+#port-info{
+  display: block;
+  margin:auto;
+  padding: 0 0px
+}
+
+
+@media screen and (max-width: 900px){
+  
+}
+
+@media screen and (max-width:771px){
+
+  .media-query-row{
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .media-query-col-6{
+    width:100% !important;
+  }
+
+  .avatar-title, .avatar-subtitle{
+    text-align: center;
+  }
+  
+  .avatar-info{
+    width:100% !important;
+    margin : 0px 0px;
+  }
+
+  .avatar-skills{
+    width:100% !important;
+    margin-top: 25px;
+  }
+
+  .avatar-social{
+    width: 100% !important;
+    margin-top: 25px
+  }
 }

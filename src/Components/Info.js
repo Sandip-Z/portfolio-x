@@ -8,25 +8,25 @@ const Info = ()=>{
     return(
         <div className="container">
         <div className="post card">
-            <div className="row card-content">
+            <div className="row card-content media-query-row">
                 <div className="col s4 avatar-info">
                     <p className="bold">PERSONAL INFORMATION</p>
                     <p>Sandip Satyal</p>
                     <p>Hattiban, Lalitpur</p>
                     <p>sandipsatyal25@gmail.com</p>
                 </div>
-                <div className="col s4">
+                <div className="col s4 avatar-skills">
                     <p className="bold">SKILLS</p>
                     <p>
                     <span className="chip">HTML5</span>
                     <span className="chip">CSS3</span>
                     <span className="chip">JavaScript</span>
                     <span className="chip">React</span>
-                    <span className="chip">React Native</span>
+                    <span className="chip">ReactNative</span>
                     <span className="chip">JQuery</span>
                     </p>
                 </div>
-                <div className="col s4">
+                <div className="col s4 avatar-social">
                     <p className="bold">SOCIAL MEDIA</p>
                     <ul className="social-list">
                         <li><img src={Github} alt="github" className="social-logo" /></li>
