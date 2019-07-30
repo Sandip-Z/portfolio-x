@@ -113,6 +113,13 @@ table{
   padding: 0 0px
 }
 
+.contact-wrapper{
+  margin-top:50px;
+}
+
+.padding-left-15{
+  padding-left:15px;
+}
 
 @media screen and (max-width: 900px){
   

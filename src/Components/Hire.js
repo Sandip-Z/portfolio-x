@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
 import Navbar from './Navbar'
+import Contact from './Contact'
 export default class Hire extends Component{
     render(){
         return(
@@ -10,11 +10,12 @@ export default class Hire extends Component{
                 <div className="container">
                 <div className="post card">
                 <div className="card-content">
-                <p>I AM AVAILABLE FOR WORK</p>
-                <Link to="" className="btn right">download cv</Link>
+                   <i className="Medium material-icons">check_circle</i><span className="padding-left-15">I am available for work.</span>
+                   <a href='https://www.pdfhost.net/index.php?Action=Download&File=1f68886d130300464fee18ee7789905d' className="btn right" target="_blank" rel="noopener noreferrer">Download CV</a>
                 </div>
                 </div>
                 </div>
+                <Contact />
             </div>
         )
     }
