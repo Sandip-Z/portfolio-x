@@ -19,7 +19,7 @@ export default class Contact extends Component{
 
     handleClick= (e)=>{
         e.preventDefault();
-        console.log(this.state);
+        console.log() 
     }
     render(){
         return(

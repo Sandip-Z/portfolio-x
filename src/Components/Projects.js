@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import ProjectsFile from './ProjectsFile'
+import ProjectBox from './ProjectBox'
 
 class Projects extends React.Component{
     constructor(props){
@@ -12,34 +13,25 @@ class Projects extends React.Component{
     render(){
         const template = this.state.projects.map(project=>{
             return(
-                <tr key={project.id}>
-                    <td>{project.id}</td>
-                    <td>{project.projectName}</td>
-                    <td>{project.desc}</td>
-                    <td>{project.storage}</td>
-                    <td>{project.deploy ? (<a href={project.URL} target="_blank" rel="noopener noreferrer">&#10004;</a>) : (<span>&#x2715;</span>)}</td>
-                </tr>
+            <div className="custom-col" key={project.id}>
+                <ProjectBox 
+                id={project.id} 
+                name={project.projectName} 
+                desc={project.desc} 
+                deploy={project.deploy} 
+                storage={project.storage} 
+                url={project.URL}/>
+            </div>
             )
         })
     return(
         <div>
         <Navbar caller="projects"/>
         <h1>PROJECTS</h1>
-        <div className="container">
-        <table className="centered responsive-table striped">
-        <thead>
-            <tr>
-                <th>Sn</th>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Storage</th>
-                <th>Deployed</th>
-            </tr>
-        </thead>            
-        <tbody>
-        {template}
-        </tbody>
-        </table>
+        <div className="custom-container">
+            <div className="custom-row">
+                {template}
+            </div>
         </div>
         </div>
     )

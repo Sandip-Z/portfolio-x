@@ -32,7 +32,7 @@ const Info = ()=>{
                         <li><a href="https://www.github.com/Sandip-Z" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github" className="social-logo" /></a></li>
                         <li><a href="https://www.gitlab.com/sandipsatyal25" target="_blank" rel="noopener noreferrer"><img src={Gitlab} alt="gitlab" className="social-logo" /></a></li>
                         <li><a href="https://www.facebook.com/sandipsatyal25" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="facebook" className="social-logo" /></a></li>
-                        <li><a href="https://www.instagram.com/st.sandip" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="instagram" className="social-logo" /></a></li>
+                        <li><a href="https://www.instagram.com/st.sandip" target="_blank" rel="noopener noreferrer" ><img src={Instagram} alt="instagram" className="social-logo" /></a></li>
                     </ul>
                 </div>
             </div>

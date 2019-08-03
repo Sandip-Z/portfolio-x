@@ -38,22 +38,5 @@
         "storage": "https://gitlab.com/sandipsatyal25/e-commerce",
         "deploy" : false,
         "URL" : null
-    },
-    {
-        "id" : "6",
-        "projectName" : "Calorie_meter_frontend",
-        "desc" : "Mobile Application which helps its user visualize the calory intake",
-        "storage" : "https://gitlab.com/ikushum/calorie_meter_frontend",
-        "deploy" : false,
-        "URL" : null
-    },
-    {
-        "id" : "7",
-        "projectName" : "webRTC",
-        "desc" : "upcoming streaming app",
-        "storage" : null,
-        "deploy" : false,
-        "URL" : null
     }
-
 ]
