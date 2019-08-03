@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "image-comparison",
+        "component" : "ImageComparisonDemo"
+    },
+    {
+        "name" : "shadow-following-mouse-movement",
+        "component" : "ShadowFollow"
+    }
+]

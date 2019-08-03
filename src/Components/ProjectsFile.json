@@ -21,7 +21,7 @@
         "desc" : "Responsive UI element whose background changes according to mouse movement",
         "storage" : "https://gitlab.com/sandipsatyal25/shadow-following-mouse-movement-ui-element",
         "deploy" : false,
-        "URL" : null
+        "URL" : "/demo/shadow-following-mouse-movement"
     },
     {
         "id" : "4",
@@ -29,7 +29,7 @@
         "desc" : "Compares images on the top of each other",
         "storage" : "https://gitlab.com/sandipsatyal25/image-comparison",
         "deploy" : false,
-        "URL" : null
+        "URL" : "/demo/image-comparison"
     },
     {
         "id" : "5",

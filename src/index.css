@@ -167,7 +167,7 @@ table{
 }
 
 a{
-  color:black;
+  color:inherit;
 }
 
 .project-storage{
@@ -179,6 +179,31 @@ a{
   padding-top:25px;
   text-align: center;
 }
+
+.demo-project-name{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.custom-breadcrumb{
+  position: relative;
+  margin:15px 0px;
+  color:rgb(58, 58, 61);
+  border-radius: 5px;
+  padding:2px 7px;
+  /* right:0px; */
+  font-size: 14px;
+  background: #93a6ad
+}
+.custom-breadcrumb p{
+  /* position: relative; */
+  display: flex;
+  flex-direction: row-reverse;
+  right: 0px;
+  margin:0px;
+  /* padding-left:99%; */
+}
+
 
 @media screen and (max-width: 900px){
   .media-query-100-width-container{
